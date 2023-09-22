@@ -47,7 +47,7 @@
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
-  font-size: 36px;
+
   line-height: 1.07;
   max-width: 496px;
   margin-left: auto;
@@ -90,7 +90,8 @@
   }
 
   .header-one {
-    margin-bottom: 36px;
+    margin-bottom: 56px;
+    font-size: 56px;
   }
 }
 
@@ -119,6 +120,7 @@
 
   .header-one {
     margin-bottom: 48px;
+    font-size: 56px;
   }
 }
 

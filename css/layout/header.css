@@ -67,6 +67,7 @@
     flex-direction: column;
     row-gap: 40px;
     margin-bottom: 48px;
+    padding-top: 72px;
   }
 
   .burger-menu-link-pages {
@@ -106,7 +107,9 @@
   .burger-menu-link-contact:focus {
     color: #404bbf;
   }
-
+  .menu-studio {
+    color: var(--OCEAN, #404bbf);
+  }
   .burger-menu-social-list {
     display: flex;
     justify-content: flex-start;
@@ -204,7 +207,7 @@
   }
 
   .page-header {
-    padding-top: 16px;
+    padding-top: 0;
     padding-bottom: 0;
   }
 
@@ -269,6 +272,9 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  /*.burger-menu-link-pages .current {
+    color: var(--OCEAN, #404bbf);
+  }*/
   .menu-hover-line {
     border-radius: 2px;
     margin-top: 20px;

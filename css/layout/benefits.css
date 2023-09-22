@@ -61,6 +61,9 @@
   .benefits-list-item {
     width: calc((100% - 24px) / 2);
   }
+  .benefits-list-title {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 1157px) {
@@ -69,7 +72,7 @@
   }
 
   .paragraph {
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 
@@ -108,5 +111,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 }
